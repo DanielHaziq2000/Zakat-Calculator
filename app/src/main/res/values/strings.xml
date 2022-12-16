@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string name="welcome">Welcome to Zakat Calculator</string>
+    <string name="dalil">
+        "Ambillah sebahagian daripada harta mereka sebagai sedekah (zakat), agar dengan demikian akan membersihkan (harta) dan mensucikan (hati) mereka serta doakanlah mereka, kerana doamu itu akan membawa ketenangan untuk mereka. Sesungguhnya Allah Maha Mendengar,Lagi Maha Mengetahui"
+
+        (Surah At-Taubah 9:103)
+
+    </string>
+    <string name="copyright">Copyright &#169; 2022 Daniel_Haziq </string>
+    <string name="about_text">This is a basic demo application to determine the use of menu in Android Studio Application </string>
+
+    <string-array name="type">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+</resources>

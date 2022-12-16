@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dip"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="134dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="137dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/app_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="47dp"
+        android:text="@string/copyright" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="16dip"
+        android:text="@string/about_text" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="16dip"
+        android:text="Name: Mohamad Daniel Haziq Bin Mohamad Nasir" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="16dip"
+        android:text="Program Code: CS240" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="16dip"
+        android:text="Group: RCS2405A" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="69dp"
+        android:layout_marginRight="16dip"
+        android:text="My github" />
+
+</RelativeLayout>
