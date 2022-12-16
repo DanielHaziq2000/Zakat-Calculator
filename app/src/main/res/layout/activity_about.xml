@@ -95,6 +95,6 @@
         android:layout_marginLeft="16dip"
         android:layout_marginTop="69dp"
         android:layout_marginRight="16dip"
-        android:text="My github" />
+        android:text="@string/link"/>
 
 </RelativeLayout>
